@@ -80,7 +80,7 @@ function App() {
   };
 
   return (
-    <div className="h-full w-full space-y-4 overflow-auto bg-white p-6">
+    <div className="h-full w-full space-y-4 overflow-auto bg-white p-6 max-sm:p-2">
       <Input placeholder="Enter User Name" onChange={handleSearch} />
       <div className="flex flex-col gap-2">
         {loading.user && <Loading />}
@@ -97,9 +97,9 @@ function App() {
               {loading.repo && <Loading />}
               {repos[item.id]?.map(item => (
                 <div key={item.id} className="flex gap-2 bg-gray-300 p-2">
-                  <div className="flex-1">
-                    <h1 className="text-sm font-bold">{item.name}</h1>
-                    <p className="text-sm">{item.description ?? '-'}</p>
+                  <div className="flex-1 overflow-hidden">
+                    <h1 className="truncate text-sm font-bold">{item.name}</h1>
+                    <p className="overflow-hidden text-sm">{item.description ?? '-'}</p>
                   </div>
                   <div className="space-x-2">
                     {item.stargazers_count}
