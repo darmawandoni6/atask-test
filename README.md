@@ -15,7 +15,7 @@
 
 ## 📷 Demo / Screenshot
 
-_(Add a screenshot or live demo link here if available)_
+![App Preview](https://raw.githubusercontent.com/darmawandoni6/atask-test/master/public/preview.png)
 
 ---
 
