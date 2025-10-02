@@ -15,7 +15,9 @@
 
 ## 📷 Demo / Screenshot
 
-![App Preview](https://raw.githubusercontent.com/darmawandoni6/atask-test/master/public/preview.png)
+[![App Preview](https://raw.githubusercontent.com/darmawandoni6/atask-test/master/public/preview.png)](https://sunny-gelato-529be6.netlify.app/)
+
+👉 [Preview Link](https://sunny-gelato-529be6.netlify.app/)
 
 ---
 
